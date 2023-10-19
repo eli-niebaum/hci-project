@@ -1,0 +1,1 @@
+COMBINATION.8xp is an original piece of code that used an official TI-Basic Programming Guide for the TI-84 Plus CE manual (https://education.ti.com/-/media/377A0772C3B04D83B83D2A4E51029D08) and a fan-maintained wiki revolving around programming for TI-Basic (http://tibasicdev.wikidot.com/starter-kit) as reference material to learn the language.
