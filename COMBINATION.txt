@@ -1,0 +1,27 @@
+ClrHome
+Output(2,8,"PLEASE ENTER")
+Output(3,8,"COMBINATION")
+Output(5,1,"INPUT 1:")
+Output(6,1,"INPUT 2:")
+
+Repeat K
+getKey→K
+End
+Output(5,1,"INPUT 1: [ENTERED]")
+
+Repeat J
+getKey→J
+End
+Output(6,1,"INPUT 2: [ENTERED]")
+
+If K=11 and J=12
+Then
+Output(8,10,"CORRECT: 1080")
+Else
+Output(8,9,"INCORRECT")
+End
+Output(9,5,"PRESS ENTER TO EXIT")
+
+Repeat L=105
+getKey→L
+End
