@@ -8,6 +8,15 @@ print("-------------------------------\n")
 print("""The aim of the game is to complete the puzzles in the prompts with the use of your wits as well as
 your TI-84 Plus CE calculator running the attached program. Good luck!\n""")
 
+print("""One day you received a knock at your door late at night. After cautiously opening your door at your feet stood a box
+about a foot in length. The box had a note taped to the top, it read "You have been selected by those of a higher
+power to be granted with knowledge and power. Go to the address at the bottom and use what is inside this parcel to
+obtain this offering". You open the box to find.... a TI-84 Plus CE calculator, a mighty tool if one knows how to wield it.
+
+Throwing all caution to the wind you immediately throw on some appropriate attire and some shoes and head for the address.
+When you arrive you see an ominous run down house, not too large in size, but as it seems, large in history. You make
+your way to the front door.\n""")
+
 while playing:
     if place == "Start":
         print("""
@@ -30,7 +39,7 @@ while playing:
             
             if var == "corner door" or var == "1":
                 print("""
-            Option 1: You see that the door has a form of rolling passcode lock on it. The lock seems to allot three digits
+            Option 1: You see that the door has a form of rolling passcode lock on it. The lock seems to allot four digits
 
             Do you wish to open the door?
             Yes or No\n""")
@@ -38,7 +47,6 @@ while playing:
                 var = input().lower()
                 
                 if var == "yes":
-                    print("\tUse your calculator to find the answer.")
                     print("\tPasscode?")
 
                     passcode = input()
@@ -117,6 +125,27 @@ while playing:
         to a rumble and movement. You turn around to see the wall at the back of the room turning to be perpendicular...
         revealing a new room.\n""")
                 place = "Room3"
+            else:
+                print("INCORRECT INPUT, TRY AGAIN")
+
+    elif place == "Room3":
+        print("""
+        You enter a room enlightened by a singular large lamp in the corner. In front of you is a table, with a piece of paper. Written on the paper are the words, to receive treasure, you must find where X marks the spot.
+        On the wall facing the table is a chalk board. Written on the chalk board are 2 equations:
+
+        y = 3^x
+        y = -3(x - 2)
+
+        Next to the paper is a keypad built into the table.
+
+        Use your calculator to continue.""")
+
+        while place == "Room3":
+            var = input("Passcode: ")
+
+            if var == "2":
+                print("cool")
+                place = "Final"
                 playing = False
             else:
                 print("INCORRECT INPUT, TRY AGAIN")
