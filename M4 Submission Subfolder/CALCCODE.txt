@@ -1,0 +1,145 @@
+ClrHome
+
+"FOUND OUT HOW TO COMMENT!
+"I can even do lowercase so I don't sound like I'm screaming.
+
+"Variables can only be a single letter + θ. So 27 in total. 
+"You can also indent! But the wiki
+"says it causes issues, which blows.
+1→P
+While P=1
+
+Disp "" 
+Disp "          INPUT"
+Disp "     CALCULATOR CODE:"
+Input "",A
+Disp ""
+
+"If A=434 or A=681 or A=912
+If A=434 or A=681 or A=912
+Then
+
+"If A=434
+If A=434
+Then
+Disp "IF YOU CAN'T THINK"
+Disp "OF A PASSCODE,"
+Disp "YOU SHOULD *SIT* ON IT."
+Input "",B
+Disp ""
+
+If B=259
+Then
+"Deviating from the psuedocode…I think this is cool.
+"See ClrHome below.
+Disp "THE DIRECTIONAL LOCK'S"
+Disp "COMBINATION IS:"
+Disp "LEFT LEFT UP RIGHT DOWN"
+Disp ""
+Disp "   PLEASE PRESS ANY KEY
+Disp "       TO CONTINUE."
+Repeat K
+getKey→K
+End
+"Instead of the text scrolling down as we layer and layer
+"lines of code, let's clear home! It looks nice.
+ClrHome
+
+Else
+Disp "INCORRECT CODE, TRY AGAIN."
+Disp ""
+Disp "   PLEASE PRESS ANY KEY
+Disp "       TO CONTINUE."
+Repeat K
+getKey→K
+End
+ClrHome
+
+End
+
+End
+"End If A=434
+
+"If A=681
+If A=681
+Then
+Disp "BRONZE = 1"
+Disp "GOLD = 2"
+Disp "NICKEL = 3"
+Input "",B
+Disp ""
+
+If B=312
+Then
+Disp "CHECK THE CASK WITH"
+Disp "SERIAL NUMBER: 9346"
+Disp ""
+Disp "   PLEASE PRESS ANY KEY
+Disp "       TO CONTINUE."
+Repeat K
+getKey→K
+End
+ClrHome
+
+Else
+Disp "INCORRECT CODE, TRY AGAIN."
+Disp ""
+Disp "   PLEASE PRESS ANY KEY
+Disp "       TO CONTINUE."
+Repeat K
+getKey→K
+End
+ClrHome
+End
+
+End
+"End If A=681
+
+"If A=912
+If A=912
+Then
+Disp "WHERE IS THE TREASURE?"
+Input "",B
+Disp ""
+
+If B=13
+Then
+Disp "YE TREASURE IS: 7240"
+Disp ""
+Disp "   PLEASE PRESS ANY KEY
+Disp "       TO CONTINUE."
+Repeat K
+getKey→K
+End
+0→P
+ClrHome
+
+Else
+Disp "INCORRECT CODE, TRY AGAIN."
+Disp ""
+Disp "   PLEASE PRESS ANY KEY
+Disp "       TO CONTINUE."
+Repeat K
+getKey→K
+End
+ClrHome
+End
+
+End
+"End If A=912
+
+
+Else
+Disp "INCORRECT CODE, TRY AGAIN."
+Disp ""
+Disp "   PLEASE PRESS ANY KEY
+Disp "       TO CONTINUE."
+Repeat K
+getKey→K
+End
+ClrHome
+End
+"End If A=434 or A=681 or A=912
+
+End
+"
